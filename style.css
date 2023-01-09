@@ -27,13 +27,14 @@ body {
     background: #F1F1F1;
     border: none;
     border-bottom: 1px 1px 1px grey;
-    padding: 10px
+    padding: 20px
 }
 
 .conta-botao, .comprar-botao {
     background-color: #F1F1F1;
     border: none;
-    padding-right: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold
 }
@@ -47,7 +48,8 @@ body {
 }
 
 .item-categoria {
-    padding: 20px
+    padding: 20px;
+    color: rgb(102, 116, 131)
 }
 
 .item-categoria:hover {
@@ -81,6 +83,7 @@ body {
 .imagem-principal {
     margin-bottom: 20px
 }
+
 .botao-principal {
     display: flex;
     align-items: center;
@@ -125,6 +128,11 @@ body {
     padding-bottom: 20px
 }
 
+.card-produto:hover {
+    transform: scale(1.05);
+    transition: 500ms
+}
+
 .card-imagem {
     height: 300px;
     width: 100%;
@@ -132,6 +140,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card-imagem:hover {
+    background-color: #1E2832;
+    transition: 500ms
 }
 
 .imagem-card {
