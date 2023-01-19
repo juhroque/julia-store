@@ -66,7 +66,7 @@ body {
 }
 
 .conteudo-principal {
-    margin-right: 60px;
+    margin: 0 70px;
     font-family: Roboto, sans-serif;
 }
 
@@ -81,7 +81,8 @@ body {
 }
 
 .imagem-principal {
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    margin-left: 10px
 }
 
 .botao-principal {
@@ -155,6 +156,7 @@ body {
 .nome-produto {
     padding-top: 5px;
 }
+
 .bottom-card-produto {
     display: flex;
     justify-content: space-between;
@@ -194,7 +196,7 @@ footer {
 
     .botao-principal {
         margin: 20px auto;
-    }
+    } 
 
 
     .conteudo-principal {
